@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FarmFeed (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FarmFeed (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
