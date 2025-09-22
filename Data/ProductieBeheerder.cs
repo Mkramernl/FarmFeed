@@ -8,6 +8,6 @@ namespace FarmFeed.Data
 {
     internal class ProductieBeheerder
     {
-
+        public int Id { get; set; }
     }
 }

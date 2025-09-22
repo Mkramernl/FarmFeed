@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Data
 {
-    internal class Veeboeren
+    internal class Veeboer
     {
+        public int Id { get; set; }
     }
 }

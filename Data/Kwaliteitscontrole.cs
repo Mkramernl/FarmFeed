@@ -8,6 +8,6 @@ namespace FarmFeed.Data
 {
     internal class Kwaliteitscontrole
     {
-
+        public int Id { get; set; }
     }
 }

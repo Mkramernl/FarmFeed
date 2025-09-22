@@ -8,5 +8,6 @@ namespace FarmFeed.Data
 {
     internal class LogistiekTeam
     {
+        public int Id { get; set; }
     }
 }

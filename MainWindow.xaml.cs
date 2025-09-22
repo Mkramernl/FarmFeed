@@ -28,11 +28,10 @@ namespace FarmFeed
         {
             InitializeComponent();
 
-            using (var db = new AppDbContext())
-            {
-                db.Database.EnsureDeleted();
-                db.Database.EnsureCreated();
-            }
+            using var db = new AppDbContext();
+            db.Database.EnsureDeleted();
+            db.Database.EnsureCreated();
+
         }
     }
 }
