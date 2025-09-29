@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-23T08:22:03.110</Modified>
+      <Modified>2025-09-29T07:32:04.142</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -40,11 +40,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>NutriFarm.exe</PackagePath>
-      <Modified>2025-09-23T08:22:00.495</Modified>
+      <Modified>2025-09-29T07:32:03.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NutriFarm.dll">
       <PackagePath>NutriFarm.dll</PackagePath>
-      <Modified>2025-09-23T08:22:00.405</Modified>
+      <Modified>2025-09-29T07:32:03.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.19\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -972,7 +972,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NutriFarm.deps.json">
       <PackagePath>NutriFarm.deps.json</PackagePath>
-      <Modified>2025-09-23T08:22:01.514</Modified>
+      <Modified>2025-09-29T07:15:27.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -1008,7 +1008,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mikek\source\repos\FarmFeed\FarmFeed\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-23T08:22:02.220</Modified>
+      <Modified>2025-09-29T07:15:27.457</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

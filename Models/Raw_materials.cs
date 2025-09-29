@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models
 {
-    internal class raw_matterials
+    internal class raw_materials
     {
+        public int MaterialId { get; set; }
+        public string Name { get; set; }
+        public string Unit { get; set; }
+        public decimal StockQuantity { get; set; }
+        public bool IsActive { get; set; }
     }
 }

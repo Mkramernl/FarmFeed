@@ -8,5 +8,12 @@ namespace FarmFeed.Models
 {
     internal class Quality_tests
     {
+        public int QualityTestId { get; set; }
+        public int ProductId { get; set; }
+        public int TestTypeId { get; set; }
+        public int UserId { get; set; }
+        public DateTime TestDate { get; set; }
+        public string ResultSummary { get; set; }
+        public bool Passed { get; set; }
     }
 }

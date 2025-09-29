@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models
 {
-    internal class feed_product_materials
+    internal class Feed_product_materials
     {
+        public int ProductId { get; set; }
+        public int MaterialId { get; set; }
+        public decimal AmountPerUnit { get; set; }
     }
 }

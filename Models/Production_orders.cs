@@ -8,5 +8,10 @@ namespace FarmFeed.Models
 {
     internal class Production_orders
     {
+        public int ProductionOrderId { get; set; }
+        public int FeedProductId { get; set; }
+        public DateTime PlannedDate { get; set; }
+        public int QuantityUnits { get; set; }
+        public string Status { get; set; }
     }
 }
