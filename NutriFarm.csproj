@@ -38,13 +38,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.4948" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.250907003" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Delivery\" />
-    <Folder Include="Models\Product\" />
-    <Folder Include="Models\Quality\" />
-    <Folder Include="Models\User\" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
   </ItemGroup>
 
   <!--

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmFeed.Models
+namespace FarmFeed.Models.User
 {
     public class User
     {

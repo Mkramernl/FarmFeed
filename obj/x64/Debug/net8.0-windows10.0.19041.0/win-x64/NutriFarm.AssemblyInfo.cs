@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriFarm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d29f879c2854122a17dda5a463a5bfe7220b2355")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0d60e2ae42c52f75b83603dc02dae9b438b97d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriFarm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriFarm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
