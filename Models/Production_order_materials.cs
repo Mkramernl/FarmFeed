@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmFeed.Data
+namespace FarmFeed.Models
 {
-    internal class Kwaliteitscontrole
+    internal class production_order_materials
     {
-        public int Id { get; set; }
     }
 }

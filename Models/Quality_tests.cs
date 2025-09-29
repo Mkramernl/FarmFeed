@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmFeed.Data
+namespace FarmFeed.Models
 {
-    internal class LogistiekTeam
+    internal class Quality_tests
     {
-        public int Id { get; set; }
     }
 }

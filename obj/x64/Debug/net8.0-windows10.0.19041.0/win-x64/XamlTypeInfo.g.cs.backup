@@ -15,17 +15,17 @@ namespace FarmFeed
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2509")]
-        private global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2509")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -63,7 +63,7 @@ namespace FarmFeed
     }
 }
 
-namespace FarmFeed.NutriFarm_XamlTypeInfo
+namespace FarmFeed.FarmFeed_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -72,15 +72,15 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -130,7 +130,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -169,7 +169,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -321,8 +321,8 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType userType;
+            global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -330,7 +330,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.StaticInitializer = StaticInitializer_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
@@ -339,19 +339,19 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Boolean
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  Microsoft.UI.Xaml.Media.MicaBackdrop
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Media.SystemBackdrop"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Media.SystemBackdrop"));
                 userType.Activator = Activate_4_MicaBackdrop;
                 userType.StaticInitializer = StaticInitializer_4_MicaBackdrop;
                 userType.AddMemberName("Kind");
@@ -359,11 +359,11 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 5:   //  Microsoft.UI.Xaml.Media.SystemBackdrop
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 6:   //  Microsoft.UI.Composition.SystemBackdrops.MicaKind
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_6_MicaKind;
                 userType.AddEnumValue("Base", global::Microsoft.UI.Composition.SystemBackdrops.MicaKind.Base);
                 userType.AddEnumValue("BaseAlt", global::Microsoft.UI.Composition.SystemBackdrops.MicaKind.BaseAlt);
@@ -371,19 +371,19 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 7:   //  System.Enum
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_7_Enum;
                 xamlType = userType;
                 break;
 
             case 8:   //  System.ValueType
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.StaticInitializer = StaticInitializer_8_ValueType;
                 xamlType = userType;
                 break;
 
             case 9:   //  FarmFeed.MainWindow
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_9_MainWindow;
                 userType.StaticInitializer = StaticInitializer_9_MainWindow;
                 userType.SetIsLocalType();
@@ -391,11 +391,11 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 10:   //  Microsoft.UI.Xaml.Window
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 11:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_11_TreeViewNode;
                 userType.StaticInitializer = StaticInitializer_11_TreeViewNode;
                 userType.AddMemberName("Children");
@@ -410,11 +410,11 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 12:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 13:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_13_IList;
                 userType.CollectionAdd = VectorAdd_13_IList;
                 userType.SetIsReturnTypeStub();
@@ -422,7 +422,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
                 break;
 
             case 14:   //  Int32
-                xamlType = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -556,68 +556,68 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember xamlMember = null;
-            global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType userType;
+            global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember xamlMember = null;
+            global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
             case "Microsoft.UI.Xaml.Media.MicaBackdrop.Kind":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.MicaBackdrop");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "Kind", "Microsoft.UI.Composition.SystemBackdrops.MicaKind");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Media.MicaBackdrop");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "Kind", "Microsoft.UI.Composition.SystemBackdrops.MicaKind");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_1_MicaBackdrop_Kind;
                 xamlMember.Setter = set_1_MicaBackdrop_Kind;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_2_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_3_TreeViewNode_Content;
                 xamlMember.Setter = set_3_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_4_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_5_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_6_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_6_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_7_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_7_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::FarmFeed.NutriFarm_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::FarmFeed.NutriFarm_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::FarmFeed.FarmFeed_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::FarmFeed.FarmFeed_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_8_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -680,10 +680,10 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2509")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlUserType : global::FarmFeed.NutriFarm_XamlTypeInfo.XamlSystemBaseType
+    internal partial class XamlUserType : global::FarmFeed.FarmFeed_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
-        global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Microsoft.UI.Xaml.Markup.IXamlType _baseType;
         global::Microsoft.UI.Xaml.Markup.IXamlType _boxedType;
         bool _isArray;
@@ -698,7 +698,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
+        public XamlUserType(global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
             global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
@@ -915,7 +915,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
-        global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -924,7 +924,7 @@ namespace FarmFeed.NutriFarm_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::FarmFeed.NutriFarm_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::FarmFeed.FarmFeed_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

@@ -4548,9 +4548,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\FarmFeed.csproj",
-      "projectName": "FarmFeed",
-      "projectPath": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\FarmFeed.csproj",
+      "projectUniqueName": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\NutriFarm.csproj",
+      "projectName": "NutriFarm",
+      "projectPath": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\NutriFarm.csproj",
       "packagesPath": "C:\\Users\\mikek\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\obj\\",
       "projectStyle": "PackageReference",

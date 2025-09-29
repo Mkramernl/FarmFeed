@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FarmFeed")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NutriFarrm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2844bcadac3f9e2f75286cf1bf40a913125f146")]
-[assembly: System.Reflection.AssemblyProductAttribute("FarmFeed")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FarmFeed")]
+[assembly: System.Reflection.AssemblyProductAttribute("NutriFarrm")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NutriFarrm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.19041.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.17763.0")]

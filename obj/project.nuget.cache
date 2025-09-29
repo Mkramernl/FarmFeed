@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SLV0Q0X41C0=",
+  "dgSpecHash": "ksTD40Wq0kU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\FarmFeed.csproj",
+  "projectFilePath": "C:\\Users\\mikek\\source\\repos\\FarmFeed\\FarmFeed\\NutriFarm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikek\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\mikek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
