@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models.Quality
 {
-    internal class Quality_tests
+    internal class QualityTests
     {
-        public int QualityTestId { get; set; }
+        public int Id { get; set; }
         public int ProductId { get; set; }
         public int TestTypeId { get; set; }
         public int UserId { get; set; }

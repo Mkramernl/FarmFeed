@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models.Product
 {
-    internal class Product_translations
+    internal class ProductTranslations
     {
-        public int TranslationId { get; set; }
+        public int Id { get; set; }
         public int ProductId { get; set; }
         public string LanguageCode { get; set; }
         public string ProductName { get; set; }

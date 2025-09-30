@@ -8,7 +8,7 @@ namespace FarmFeed.Models.Product
 {
     internal class Orders
     {
-        public int OrderId { get; set; }
+        public int Id { get; set; }
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
         public DateTime DeliveryDate { get; set; }

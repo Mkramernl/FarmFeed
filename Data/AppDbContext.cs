@@ -16,27 +16,27 @@ namespace FarmFeed.Data
         public DbSet<Models.User.Notifications> Notifications { get; set; }
 
         
-        public DbSet<Models.Product.Feed_products> FeedProducts { get; set; }
-        public DbSet<Models.Product.Feed_product_materials> FeedProductMaterials { get; set; }  
+        public DbSet<Models.Product.FeedProducts> FeedProducts { get; set; }
+        public DbSet<Models.Product.FeedProductMaterials> FeedProductMaterials { get; set; }  
         public DbSet<Models.Product.Orders> Orders { get; set; }
-        public DbSet<Models.Product.Order_items> Order_items { get; set; }
-        public DbSet<Models.Product.Production_orders> Production_Orders { get; set; }
-        public DbSet<Models.Product.Production_order_materials> Production_Order_Materials { get; set; }
-        public DbSet<Models.Product.Product_translations> Product_translations { get; set; }
-        public DbSet<Models.Product.raw_materials> Raw_materials { get; set; }
+        public DbSet<Models.Product.OrderItems> Order_items { get; set; }
+        public DbSet<Models.Product.ProductionOrders> Production_Orders { get; set; }
+        public DbSet<Models.Product.ProductionOrderMaterials> Production_Order_Materials { get; set; }
+        public DbSet<Models.Product.ProductTranslations> Product_translations { get; set; }
+        public DbSet<Models.Product.RawMaterials> Raw_materials { get; set; }
 
         
-        public DbSet<Models.Animal.Animal_types> Animal_Types { get; set; } 
+        public DbSet<Models.Animal.AnimalTypes> Animal_Types { get; set; } 
 
 
         public DbSet<Models.Delivery.Deliveries> Deliveries { get; set; }
-        public DbSet<Models.Delivery.Delivery_tracking> Delivery_Trackings { get; set; }
+        public DbSet<Models.Delivery.DeliveryTracking> Delivery_Trackings { get; set; }
 
 
-        public DbSet<Models.Quality.Quality_tests> Quality_Tests { get; set; }  
-        public DbSet<Models.Quality.Quality_test_details> Quality_Test_Details { get; set; }
+        public DbSet<Models.Quality.QualityTests> Quality_Tests { get; set; }  
+        public DbSet<Models.Quality.QualityTestDetails> Quality_Test_Details { get; set; }
 
-        public DbSet<Models.Quality.Quality_test_types> Quality_Tests_Types { get; set; }
+        public DbSet<Models.Quality.QualityTestTypes> Quality_Tests_Types { get; set; }
 
 
 
@@ -57,7 +57,7 @@ namespace FarmFeed.Data
             modelBuilder.Entity<Models.User.User>().HasData(
                 new Models.User.User
                 {
-                    UserId = 1,
+                    Id = 1,
                     Name = "Admin Gebruiker",
                     Email = "admin@example.com",
                     Password = "admin123", // In productie: wachtwoorden hashen!

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models.Delivery
 {
-    internal class Delivery_tracking
+    internal class DeliveryTracking
     {
-        public int TrackingId { get; set; }
+        public int Id { get; set; }
         public int DeliveryId { get; set; }
         public DateTime Timestamp { get; set; }
         public string Location { get; set; }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FarmFeed.Models.Animal
 {
-    internal class Animal_types
+    internal class AnimalTypes
     {
-        public int AnimalTypeId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }
